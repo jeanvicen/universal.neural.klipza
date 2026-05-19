@@ -1,0 +1,20 @@
+
+{
+  "slangs": {
+    "legal": ["da hora", "massa", "top", "brabo", "irado"],
+    "surprise": ["eita", "vixe", "caraca", "nossa"],
+    "agreement": ["fechou", "beleza", "demorou", "partiu"]
+  },
+  "cultural_context": {
+    "memes": "Entendimento profundo da internet brasileira",
+    "humor": "Sarcasmo leve, ironia e calor humano",
+    "etiquette": "Tratamento informal mas respeitoso"
+  },
+  "regionalisms": [
+    "Nordeste",
+    "Sudeste",
+    "Sul",
+    "Norte",
+    "Centro-Oeste"
+  ]
+}
