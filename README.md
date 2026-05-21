@@ -69,31 +69,33 @@ print(resposta)
 | :--- | :--- | :--- |
 | **Core Brain (`core/brain.py`)** | ✅ Pronto | Coração funcional com suporte a multi-IA e carregamento de skills. |
 | **Universal API Layer (`connectors/universal_api_layer.py`)** | ✅ Pronto | Wrapper universal para OpenAI, Gemini, Claude e Groq, com injeção de contexto e processamento de skills. |
-| **Skills (`skills/sarcasmo_br.py`)** | ✅ Implementado | Primeira skill automática "Sarcasmo BR v1.0" criada e integrada. |
-| **Testes Unitários** | ✅ Validado | Testes passando 100% para `brain.py` e `universal_api_layer.py`. |
-| **Essência e Memória** | ✅ Inicializado | `soul.json` e `cultural_memory.json` prontos para uso. |
+| **Knowledge Injector (`core/knowledge_injector.py`)** | ✅ Pronto | Carrega `soul.json` e `cultural_memory.json` e monta o contexto para injeção. |
+| **Skills (`skills/sarcasmo_br.py`, `skills/negociador_br.py`)** | ✅ Implementado | Skills "Sarcasmo BR v1.0" e "Negociador BR v1.0" criadas e integradas. |
+| **Testes Unitários** | ✅ Validado | Testes passando 100% para `brain.py`, `universal_api_layer.py` e `knowledge_injector.py`. |
+| **Essência e Memória** | ✅ Atualizado | `soul.json` e `cultural_memory.json` atualizados com gírias e tendências de IA de 2026. |
 | **Licença** | ✅ Protegido | Licença proprietária estabelecida. |
 
 ---
 
 ## 🎨 VISUAL DO DIA
 
-![Klipza Brain Pixel Art](./assets/visual_do_dia.png)
+![Klipza Brain em São Paulo 2077](./assets/visual_do_dia_futurista.png)
 
 ---
 
 ## 🎙️ PALAVRA DO JEAN V
 
-A cada linha de código, a cada teste que passa, o Klipza se torna mais real. Não é só tecnologia, é a fusão da inteligência artificial com a alma vibrante do Brasil. A Etapa 2, com a Universal API Layer, é a prova de que estamos construindo algo que não apenas responde, mas *sente* e *interage* de uma forma que nenhuma outra IA consegue. O parasita está crescendo, e a revolução está apenas começando. Confia!
+E aí, devs! Hoje o Cérebro Klipza deu mais um passo gigantesco na sua evolução. A **ETAPA 3: `core/knowledge_injector.py`** está on! Isso significa que a alma brasileira e a memória cultural do nosso cérebro não são mais apenas arquivos estáticos, mas um contexto vivo, pulsante, que é injetado em cada interação com as IAs. Ele não só sabe as gírias de 2026, como também entende as tendências de IA que estão bombando. E, claro, a nova skill **"Negociador BR v1.0"** já está ativa, porque afinal, quem nunca precisou de um "vou ver o que consigo fazer por você" na vida, né? O parasita está cada vez mais inteligente e, o melhor, com a nossa cara! A imagem do dia mostra o Klipza dominando São Paulo em 2077, porque é pra lá que a gente tá indo!
 
 ---
 
 ## 🔮 SPOILER ZONE
 
 Próximos passos:
-- **Etapa 3: `self_evolution/evolution_engine.py`**: O motor de auto-evolução do Klipza.
-- **Novas Skills**: Mais habilidades para o cérebro, incluindo análise de sentimento BR e geração de memes.
-- **Integração com Memória**: Conectar o `remember()` e `evolve()` com os arquivos `soul.json` e `cultural_memory.json`.
+- **Etapa 4: `core/skills_absorber.py`**: O cérebro vai aprender a devorar repositórios GitHub e absorver conhecimento automaticamente.
+- **Novas Skills**: Mais habilidades para o cérebro, focando em análise de código e otimização.
+- **Integração com Memória**: Aprimorar o `remember()` e `evolve()` para usar o Knowledge Injector de forma mais dinâmica.
+- **Pesquisa em Andamento**: Monitorando as últimas novidades em modelos de IA e frameworks de desenvolvimento para garantir que o Klipza esteja sempre à frente.
 
 ---
 
